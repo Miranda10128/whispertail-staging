@@ -12,6 +12,14 @@
       "buffer_tiktok_post_id": "6aed72ce7b7e47e8f41081c7",
       "buffer_tiktok_due_at": "2026-11-06T18:25:17.000Z",
       "buffer_youtube_post_id": "6aed759f86fe9b837979aafa"
+    },
+    {
+      "id": "ep04-mary-celeste",
+      "title": "The Wow! Signal: The Mystery of the Mary Celeste",
+      "description": "Discovered adrift in the Atlantic Ocean in 1872, the Mary Celeste was found completely abandoned with its cargo intact and personal belongings left behind. To this day, the total disappearance of its crew remains one of the most haunting and enduring maritime puzzles in naval history.",
+      "hashtags": "#MaryCeleste #GhostShip #MaritimeMystery #Unexplained #HistoryBuff #NauticalHistory #VanishingPoint",
+      "audio": "episodes/ep04-mary-celeste/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
