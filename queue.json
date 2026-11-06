@@ -1,1 +1,17 @@
-{"episodes":[{"audio":"episodes/ep03-dyatlov-pass/voiceover.mp3","description":"In 1959, nine experienced hikers perished in the Ural Mountains under bizarre, inexplicable circumstances that left their tent slashed from the inside. Decades later, investigators remain divided between theories of freak weather phenomena and forces that defy logical explanation.","hashtags":"#DyatlovPass #UnsolvedMysteries #HistoryMystery #UralMountains #ColdCase #StrangePhenomena #HistoricalEnigma","id":"ep03-dyatlov-pass","status":"ready","title":"The Wow! Signal: The Mystery of Dyatlov Pass"}]}
+{
+  "episodes": [
+    {
+      "audio": "episodes/ep03-dyatlov-pass/voiceover.mp3",
+      "description": "In 1959, nine experienced hikers perished in the Ural Mountains under bizarre, inexplicable circumstances that left their tent slashed from the inside. Decades later, investigators remain divided between theories of freak weather phenomena and forces that defy logical explanation.",
+      "hashtags": "#DyatlovPass #UnsolvedMysteries #HistoryMystery #UralMountains #ColdCase #StrangePhenomena #HistoricalEnigma",
+      "id": "ep03-dyatlov-pass",
+      "status": "scheduled",
+      "title": "The Wow! Signal: The Mystery of Dyatlov Pass",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep03-dyatlov-pass/final_video.mp4",
+      "due_at": "2026-11-06T18:37:18.000Z",
+      "buffer_tiktok_post_id": "6aed72ce7b7e47e8f41081c7",
+      "buffer_tiktok_due_at": "2026-11-06T18:25:17.000Z",
+      "buffer_youtube_post_id": "6aed759f86fe9b837979aafa"
+    }
+  ]
+}
