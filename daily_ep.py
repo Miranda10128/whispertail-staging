@@ -114,6 +114,13 @@ def github_put_file(path, content_bytes, message, sha=None):
     return resp.json()
 
 
+def save_manifest(manifest, sha, message):
+    """Write queue.json back to GitHub. Returns the new sha."""
+    new_text = json.dumps(manifest, ensure_ascii=False, indent=2)
+    result = github_put_file(MANIFEST_PATH, new_text.encode("utf-8"), message, sha=sha)
+    return result["content"]["sha"]
+
+
 def buffer_graphql(query, variables=None):
     token = os.getenv("BUFFER_API_KEY")
     if not token:
@@ -238,8 +245,14 @@ def main():
     )
     video_url = f"{GITHUB_RAW_BASE}/{video_rel}"
     print(f"Uploaded video to GitHub: {video_url}")
+    episode["video_url"] = video_url
+    manifest_sha = save_manifest(
+        manifest, manifest_sha, f"WhisperTail {episode_id}: video rendered"
+    )
 
     # 5. Schedule on TikTok + YouTube via Buffer (later today, not now).
+    # Resume-safe: a post already recorded in the manifest is skipped, so a
+    # rerun never creates a duplicate.
     due_at = (datetime.now(timezone.utc) + timedelta(hours=PUBLISH_DELAY_HOURS)).strftime(
         "%Y-%m-%dT%H:%M:%S.000Z"
     )
@@ -255,26 +268,39 @@ def main():
     yt_meta = {
         "title": title,
         "categoryId": YOUTUBE_CATEGORY_ID,
-        "privacyStatus": "public",
+        "privacy": "public",
         "madeForKids": False,
     }
-    tiktok_post = buffer_create_post(tiktok["id"], caption, video_url, due_at)
-    print(f"TikTok scheduled: post {tiktok_post['id']} due {tiktok_post.get('dueAt')}")
-    youtube_post = buffer_create_post(youtube["id"], yt_text, video_url, due_at, youtube_meta=yt_meta)
-    print(f"YouTube scheduled: post {youtube_post['id']} due {youtube_post.get('dueAt')}")
+    if episode.get("buffer_tiktok_post_id"):
+        tiktok_post = {"id": episode["buffer_tiktok_post_id"]}
+        print(f"TikTok already scheduled: post {tiktok_post['id']} (skipped)")
+    else:
+        tiktok_post = buffer_create_post(tiktok["id"], caption, video_url, due_at)
+        print(f"TikTok scheduled: post {tiktok_post['id']} due {tiktok_post.get('dueAt')}")
+        episode["buffer_tiktok_post_id"] = tiktok_post["id"]
+        episode["due_at"] = due_at
+        manifest_sha = save_manifest(
+            manifest, manifest_sha, f"WhisperTail {episode_id}: TikTok scheduled"
+        )
+    if episode.get("buffer_youtube_post_id"):
+        youtube_post = {"id": episode["buffer_youtube_post_id"]}
+        print(f"YouTube already scheduled: post {youtube_post['id']} (skipped)")
+    else:
+        youtube_post = buffer_create_post(
+            youtube["id"], yt_text, video_url, due_at, youtube_meta=yt_meta
+        )
+        print(f"YouTube scheduled: post {youtube_post['id']} due {youtube_post.get('dueAt')}")
+        episode["buffer_youtube_post_id"] = youtube_post["id"]
+        episode["due_at"] = due_at
+        manifest_sha = save_manifest(
+            manifest, manifest_sha, f"WhisperTail {episode_id}: YouTube scheduled"
+        )
 
     # 6. Mark the episode scheduled in the manifest.
     episode["status"] = "scheduled"
     episode["video_url"] = video_url
-    episode["due_at"] = due_at
-    episode["buffer_tiktok_post_id"] = tiktok_post["id"]
-    episode["buffer_youtube_post_id"] = youtube_post["id"]
-    new_manifest = json.dumps(manifest, ensure_ascii=False, indent=2)
-    github_put_file(
-        MANIFEST_PATH,
-        new_manifest.encode("utf-8"),
-        f"WhisperTail {episode_id}: scheduled",
-        sha=manifest_sha,
+    manifest_sha = save_manifest(
+        manifest, manifest_sha, f"WhisperTail {episode_id}: scheduled"
     )
     print(f"DONE: {episode_id} scheduled for {due_at}")
     return 0
