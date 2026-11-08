@@ -24,6 +24,18 @@
       "buffer_tiktok_post_id": "6aeec321a7751de7c9cd4f21",
       "due_at": "2026-11-07T18:20:15.000Z",
       "buffer_youtube_post_id": "6aeec322a7751de7c9cd4f63"
+    },
+    {
+      "id": "ep05-db-cooper",
+      "title": "The Wow! Signal: D.B. Cooper — The Man Who Vanished Mid-Air",
+      "description": "In 1971, a man hijacked Flight 305, took $200,000, and parachuted into the night — never to be seen again. The FBI's only unsolved air piracy case.",
+      "hashtags": "#TrueCrime #UnsolvedMystery #History #DBCooper #Norjak",
+      "audio": "episodes/ep05-db-cooper/voiceover.mp3",
+      "status": "scheduled",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep05-db-cooper/final_video.mp4",
+      "due_at": "2026-11-08T18:14:12.000Z",
+      "buffer_tiktok_post_id": "6af0bb84d6bbae6fa103988f",
+      "buffer_youtube_post_id": "6af0bb849214322f686c1a16"
     }
   ]
 }
