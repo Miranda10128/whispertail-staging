@@ -43,7 +43,8 @@
       "description": "In 1948, a man was found dead on an Australian beach with no ID — and a scrap of paper in his pocket that read 'Tamám Shud.' It is finished. The code in the book was never cracked.",
       "hashtags": "#UnsolvedMystery #TrueCrime #History #SomertonMan #TamanShud",
       "audio": "episodes/ep06-somerton-man/voiceover.mp3",
-      "status": "ready"
+      "status": "ready",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep06-somerton-man/final_video.mp4"
     }
   ]
 }
