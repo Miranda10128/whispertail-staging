@@ -46,7 +46,8 @@
       "status": "ready",
       "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep06-somerton-man/final_video.mp4",
       "buffer_tiktok_post_id": "6af15928796ccae266864a9b",
-      "due_at": "2026-11-09T17:24:55.000Z"
+      "due_at": "2026-11-09T17:24:55.000Z",
+      "buffer_youtube_post_id": "6af1592a7522f65ac0bf5a38"
     }
   ]
 }
