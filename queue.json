@@ -36,6 +36,14 @@
       "due_at": "2026-11-08T18:14:12.000Z",
       "buffer_tiktok_post_id": "6af0bb84d6bbae6fa103988f",
       "buffer_youtube_post_id": "6af0bb849214322f686c1a16"
+    },
+    {
+      "id": "ep06-somerton-man",
+      "title": "The Wow! Signal: The Somerton Man — The Code No One Could Crack",
+      "description": "In 1948, a man was found dead on an Australian beach with no ID — and a scrap of paper in his pocket that read 'Tamám Shud.' It is finished. The code in the book was never cracked.",
+      "hashtags": "#UnsolvedMystery #TrueCrime #History #SomertonMan #TamanShud",
+      "audio": "episodes/ep06-somerton-man/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
