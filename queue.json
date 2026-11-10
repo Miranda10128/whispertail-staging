@@ -48,6 +48,14 @@
       "buffer_tiktok_post_id": "6af15928796ccae266864a9b",
       "due_at": "2026-11-09T17:24:55.000Z",
       "buffer_youtube_post_id": "6af1592a7522f65ac0bf5a38"
+    },
+    {
+      "id": "ep07-zodiac-killer",
+      "title": "The Wow! Signal: The Zodiac Killer — The Cipher That Took 51 Years to Crack",
+      "description": "Between 1968 and 1969, a killer terrorized the San Francisco Bay Area — then mailed his crimes to the newspapers in code. One cipher took 51 years to crack. It named no one.",
+      "hashtags": "#UnsolvedMystery #TrueCrime #History #ZodiacKiller #ZodiacCipher",
+      "audio": "episodes/ep07-zodiac-killer/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
