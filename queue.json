@@ -60,6 +60,14 @@
       "buffer_tiktok_post_id": "6af29dffb59b34913a5641aa",
       "due_at": "2026-11-10T16:30:54.000Z",
       "buffer_youtube_post_id": "6af29e01d35dff5701db7992"
+    },
+    {
+      "id": "ep08-bermuda-triangle",
+      "title": "The Wow! Signal: The Bermuda Triangle — Where Ships and Planes Vanish",
+      "description": "Draw a triangle between Miami, Bermuda, and Puerto Rico — and you enter the most dangerous water on Earth. Five bombers, a Navy ship, and a tanker vanished there. But the Coast Guard says it is no more dangerous than any other ocean.",
+      "hashtags": "#UnsolvedMystery #TrueCrime #History #BermudaTriangle #Flight19",
+      "audio": "episodes/ep08-bermuda-triangle/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
