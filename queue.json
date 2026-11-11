@@ -67,7 +67,8 @@
       "description": "Draw a triangle between Miami, Bermuda, and Puerto Rico — and you enter the most dangerous water on Earth. Five bombers, a Navy ship, and a tanker vanished there. But the Coast Guard says it is no more dangerous than any other ocean.",
       "hashtags": "#UnsolvedMystery #TrueCrime #History #BermudaTriangle #Flight19",
       "audio": "episodes/ep08-bermuda-triangle/voiceover.mp3",
-      "status": "ready"
+      "status": "ready",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep08-bermuda-triangle/final_video.mp4"
     }
   ]
 }
