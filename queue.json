@@ -79,7 +79,8 @@
       "description": "For ninety years, people have sworn a monster lives in Loch Ness. The most famous photo of it was a toy submarine — but the sightings never stopped.",
       "hashtags": "#UnsolvedMystery #TrueCrime #History #LochNess #Nessie",
       "audio": "episodes/ep09-loch-ness-monster/voiceover.mp3",
-      "status": "ready"
+      "status": "ready",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep09-loch-ness-monster/final_video.mp4"
     }
   ]
 }
