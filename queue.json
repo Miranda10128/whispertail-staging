@@ -82,7 +82,8 @@
       "status": "ready",
       "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep09-loch-ness-monster/final_video.mp4",
       "buffer_tiktok_post_id": "6af53605cb4c7286fd106e70",
-      "due_at": "2026-11-12T15:44:04.000Z"
+      "due_at": "2026-11-12T15:44:04.000Z",
+      "buffer_youtube_post_id": "6af536063d8c751bfd11def5"
     }
   ]
 }
