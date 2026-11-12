@@ -72,6 +72,14 @@
       "buffer_tiktok_post_id": "6af3ec0cd9a6812579cdcc60",
       "due_at": "2026-11-11T16:16:11.000Z",
       "buffer_youtube_post_id": "6af3ec0e6a689e197d22cacd"
+    },
+    {
+      "id": "ep09-loch-ness-monster",
+      "title": "The Wow! Signal: The Loch Ness Monster — The Photo That Fooled the World",
+      "description": "For ninety years, people have sworn a monster lives in Loch Ness. The most famous photo of it was a toy submarine — but the sightings never stopped.",
+      "hashtags": "#UnsolvedMystery #TrueCrime #History #LochNess #Nessie",
+      "audio": "episodes/ep09-loch-ness-monster/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
