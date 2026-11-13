@@ -84,6 +84,14 @@
       "buffer_tiktok_post_id": "6af53605cb4c7286fd106e70",
       "due_at": "2026-11-12T15:44:04.000Z",
       "buffer_youtube_post_id": "6af536063d8c751bfd11def5"
+    },
+    {
+      "id": "ep10-voynich-manuscript",
+      "title": "The Wow! Signal: The Voynich Manuscript — The Book No One Can Read",
+      "description": "Six hundred years old, written in a language no one can read. The world's best codebreakers tried — and failed. The Voynich Manuscript still won't talk.",
+      "hashtags": "#UnsolvedMystery #TrueCrime #History #Voynich #VoynichManuscript",
+      "audio": "episodes/ep10-voynich-manuscript/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
