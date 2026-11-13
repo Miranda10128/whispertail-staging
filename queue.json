@@ -91,7 +91,8 @@
       "description": "Six hundred years old, written in a language no one can read. The world's best codebreakers tried — and failed. The Voynich Manuscript still won't talk.",
       "hashtags": "#UnsolvedMystery #TrueCrime #History #Voynich #VoynichManuscript",
       "audio": "episodes/ep10-voynich-manuscript/voiceover.mp3",
-      "status": "ready"
+      "status": "ready",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep10-voynich-manuscript/final_video.mp4"
     }
   ]
 }
