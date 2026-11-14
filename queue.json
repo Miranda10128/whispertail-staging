@@ -103,7 +103,8 @@
       "description": "In the summer of 1985, Los Angeles was afraid to sleep. A man the newspapers called the Night Stalker broke into homes at random — until one fingerprint, and the people of East LA, ended it.",
       "hashtags": "#mystery #unsolved #truecrime #nightstalker #richardramirez",
       "audio": "episodes/ep11-night-stalker/voiceover.mp3",
-      "status": "ready"
+      "status": "ready",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep11-night-stalker/final_video.mp4"
     }
   ]
 }
