@@ -120,6 +120,14 @@
       "buffer_tiktok_post_id": "6af90cf4918fe79d2eb6061d",
       "due_at": "2026-11-15T13:37:55.000Z",
       "buffer_youtube_post_id": "6af90cf6b9a106584c7ec5b7"
+    },
+    {
+      "id": "ep13-flannan-isles",
+      "title": "The Wow! Signal: The Flannan Isles — Three Keepers Vanished Without a Trace",
+      "description": "In December 1900, three keepers vanished from the Flannan Isles lighthouse. The log stopped, the light went dark — and no one ever saw them again.",
+      "hashtags": "#mystery #unsolved #lighthouse #flannanisles #1900",
+      "audio": "episodes/ep13-flannan-isles/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
