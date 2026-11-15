@@ -108,6 +108,14 @@
       "buffer_tiktok_post_id": "6af7e1d8d16af15d4df03eae",
       "due_at": "2026-11-14T16:21:43.000Z",
       "buffer_youtube_post_id": "6af7e1da78196a0a973da182"
+    },
+    {
+      "id": "ep12-lost-colony-roanoke",
+      "title": "The Wow! Signal: The Lost Colony of Roanoke — 115 People Vanished Without a Trace",
+      "description": "In 1587, 115 English colonists landed on Roanoke Island. Three years later, their governor came back — and they were all gone. One carved word was the only clue.",
+      "hashtags": "#UnsolvedMystery #TrueCrime #History #Roanoke #LostColony",
+      "audio": "episodes/ep12-lost-colony-roanoke/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
