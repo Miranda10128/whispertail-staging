@@ -139,7 +139,8 @@
       "description": "On March 8, 2014, Malaysia Airlines Flight MH370 took off with 239 people aboard — and never landed anywhere. The plane kept flying for seven more hours. The main wreckage has never been found.",
       "hashtags": "#mystery #unsolved #aviation #MH370 #missingplane",
       "audio": "episodes/ep14-mh370/voiceover.mp3",
-      "status": "ready"
+      "status": "ready",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep14-mh370/final_video.mp4"
     }
   ]
 }
