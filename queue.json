@@ -154,7 +154,8 @@
       "status": "ready",
       "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep15-franklin-expedition/final_video.mp4",
       "buffer_tiktok_post_id": "6afd2b10aa3b065dd97239db",
-      "due_at": "2026-11-18T17:35:27.000Z"
+      "due_at": "2026-11-18T17:35:27.000Z",
+      "buffer_youtube_post_id": "6afd2b12bb12698d1599771e"
     }
   ]
 }
