@@ -144,6 +144,14 @@
       "buffer_tiktok_post_id": "6afbd3b3df36f4d825697c4c",
       "due_at": "2026-11-17T16:10:26.000Z",
       "buffer_youtube_post_id": "6afbd3b4f83aaca8f3aa3961"
+    },
+    {
+      "id": "ep15-franklin-expedition",
+      "title": "The Wow! Signal: The Franklin Expedition — 129 Men Vanished in the Arctic",
+      "description": "In 1845, HMS Erebus and HMS Terror sailed into the Arctic with 129 men to find the Northwest Passage. None of them came home. The ships were found in 2014 and 2016 — the men never were.",
+      "hashtags": "#UnsolvedMystery #TrueCrime #History #FranklinExpedition #NorthwestPassage",
+      "audio": "episodes/ep15-franklin-expedition/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
