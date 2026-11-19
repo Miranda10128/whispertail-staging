@@ -156,6 +156,14 @@
       "buffer_tiktok_post_id": "6afd2b10aa3b065dd97239db",
       "due_at": "2026-11-18T17:35:27.000Z",
       "buffer_youtube_post_id": "6afd2b12bb12698d1599771e"
+    },
+    {
+      "audio": "episodes/ep16-lost-army-of-cambyses/voiceover.mp3",
+      "description": "In 525 BC, Cambyses II sent 50,000 men into the Egyptian desert to destroy the Oracle of Amun at Siwa. They reached the Kharga Oasis — and were never seen again. Herodotus says a sandstorm buried them. Scholars are not so sure.",
+      "hashtags": "#mystery #unsolved #ancienthistory #lostarmy #cambyses",
+      "id": "ep16-lost-army-of-cambyses",
+      "status": "ready",
+      "title": "The Wow! Signal: The Lost Army of Cambyses — 50,000 Men Swallowed by the Desert"
     }
   ]
 }
