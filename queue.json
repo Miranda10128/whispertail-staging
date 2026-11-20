@@ -168,6 +168,14 @@
       "buffer_tiktok_post_id": "6afe70a9b16549e9b820375f",
       "due_at": "2026-11-19T16:44:40.000Z",
       "buffer_youtube_post_id": "6afe70abb16549e9b82037e7"
+    },
+    {
+      "id": "ep17-lost-ninth-legion",
+      "title": "The Wow! Signal: The Lost Ninth Legion — 5,000 Soldiers Vanished Without a Trace",
+      "description": "In AD 108, Rome's Ninth Legion left one last trace at York — a stone inscription recording the rebuilding of the fortress gate. After that, nothing. No battle report. No survivors. No graves. Mommsen said northern tribes wiped them out in Scotland. But tiles stamped with their mark turned up in Nijmegen, on the Rhine.",
+      "hashtags": "#mystery #unsolved #ancienthistory #lostlegion #ninthlegion",
+      "audio": "episodes/ep17-lost-ninth-legion/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
