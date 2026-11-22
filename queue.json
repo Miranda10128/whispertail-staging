@@ -192,6 +192,14 @@
       "buffer_tiktok_post_id": "6b012ab25102766245fa84ff",
       "due_at": "2026-11-21T18:22:57.000Z",
       "buffer_youtube_post_id": "6b012ab520a2d09a0ad64c2a"
+    },
+    {
+      "id": "ep19-amelia-earhart",
+      "title": "The Wow! Signal: Amelia Earhart — The Voice That Stopped Over the Pacific",
+      "description": "In 1937, Amelia Earhart set out to fly around the world — the first woman ever to try. With navigator Fred Noonan, she had already flown 22,000 miles when she left Lae, New Guinea, for Howland Island on July 2nd. Her last words: 'gas is running low.' The official answer is the plane ran out of fuel and crashed into the Pacific — but some say she landed on a desert island called Nikumaroro and lived there as a castaway. Which side are you on?",
+      "hashtags": "#mystery #unsolved #aviation #ameliaearhart #vanished",
+      "audio": "episodes/ep19-amelia-earhart/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
