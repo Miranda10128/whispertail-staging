@@ -211,7 +211,8 @@
       "description": "In 1925, British explorer Percy Fawcett walked into the Amazon to find a lost city he called Z — with his son Jack and a friend. On May 29th, they sent their last message — and vanished. A hundred people died looking for them. No bodies. No camp. Nothing. Modern archaeologists have since found great ancient cities in the Amazon — Fawcett was right that something was out there. Which side are you on?",
       "hashtags": "#mystery #unsolved #lostcity #fawcett #amazon",
       "audio": "episodes/ep20-lost-city-of-z/voiceover.mp3",
-      "status": "ready"
+      "status": "ready",
+      "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep20-lost-city-of-z/final_video.mp4"
     }
   ]
 }
