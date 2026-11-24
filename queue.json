@@ -216,6 +216,14 @@
       "buffer_tiktok_post_id": "6b039d02c72676f5e978c7e4",
       "due_at": "2026-11-23T06:25:13.000Z",
       "buffer_youtube_post_id": "6b039d03c72676f5e978c887"
+    },
+    {
+      "id": "ep21-mv-joyita",
+      "title": "The Wow! Signal: MV Joyita — The Empty Ship That Sailed Home",
+      "description": "In 1955, the Joyita left Samoa for Tokelau with 25 people aboard — and never arrived. Five weeks later she was found drifting, half sunk and completely empty. The lifeboats were gone. Four tons of cargo were gone. Her radio was tuned to the distress channel. No trace of the 25 was ever found. Which side are you on?",
+      "hashtags": "#mystery #unsolved #maritime #joyita #ghostship",
+      "audio": "episodes/ep21-mv-joyita/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
