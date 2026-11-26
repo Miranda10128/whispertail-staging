@@ -250,7 +250,8 @@
       "status": "ready",
       "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep23-lost-village-anjikuni/final_video.mp4",
       "buffer_tiktok_post_id": "6b079e109f6dda31ccb94f89",
-      "due_at": "2026-11-26T14:48:47.000Z"
+      "due_at": "2026-11-26T14:48:47.000Z",
+      "buffer_youtube_post_id": "6b079e12a791bea1b249a842"
     }
   ]
 }
