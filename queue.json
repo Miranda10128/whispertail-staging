@@ -252,6 +252,14 @@
       "buffer_tiktok_post_id": "6b079e109f6dda31ccb94f89",
       "due_at": "2026-11-26T14:48:47.000Z",
       "buffer_youtube_post_id": "6b079e12a791bea1b249a842"
+    },
+    {
+      "id": "ep24-tunguska-blast",
+      "title": "The Wow! Signal: The Tunguska Blast — The Explosion With No Crater",
+      "description": "June 30th, 1908: a fireball explodes over Siberia and flattens 2,150 square kilometres of forest — trees knocked down like matchsticks, all pointing away from one empty point in the sky. Nineteen years later, scientists finally reach the site. And there is nothing. No crater. No meteorite. Just a swamp where the sky exploded. So what was it? Which side are you on?",
+      "hashtags": "#mystery #unsolved #history #tunguska #tunguskaevent",
+      "audio": "episodes/ep24-tunguska-blast/voiceover.mp3",
+      "status": "ready"
     }
   ]
 }
