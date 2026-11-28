@@ -274,7 +274,8 @@
       "status": "ready",
       "video_url": "https://raw.githubusercontent.com/Miranda10128/whispertail-staging/main/episodes/ep25-isdal-woman/final_video.mp4",
       "buffer_tiktok_post_id": "6b0a56f541454797eaed2422",
-      "due_at": "2026-11-28T15:22:12.000Z"
+      "due_at": "2026-11-28T15:22:12.000Z",
+      "buffer_youtube_post_id": "6b0a56f7eada83daa6c478aa"
     }
   ]
 }
